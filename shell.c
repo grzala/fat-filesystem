@@ -86,7 +86,7 @@ int main()
    mychdir("/");
    myrmdir("firstdir");
    
-   myremove("/copydir/testfile3.txt")
+   myremove("/copydir/testfile3.txt");
    myrmdir("/copydir");
    
    writedisk("virtualdisk");
